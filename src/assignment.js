@@ -19,12 +19,12 @@ function sumOfNumbers(arrayOfNumbers) {
 let sum = 0;
 
 for (let i = 0; i < arrayOfNumbers.length; i++) {
-    sum += arrayOfNumbers[i];
+    sum += arrayOfNumbers[i]
 }
   
     return sum;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -39,14 +39,15 @@ for (let i = 0; i < arrayOfNumbers.length; i++) {
 
 
 function countEvenNumbers(arrayOfNumbers) {
-let count = 0;
+var count = 0;
 for(let i = 0; i < arrayOfNumbers.length; i++) {
-        if (array[i] % 2 === 0 && array[i] != "" && arrayOfNumbers[i] != []){
+        if (arrayOfNumbers[i] % 2 === 0){
             count++;
         }
 }
   
     return count;
+  return arrayOfNumbers.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
